@@ -25,7 +25,7 @@ class ModelStatusServiceProvider extends ServiceProvider
             __DIR__.'/../config/model-status.php' => config_path('model-status.php'),
         ], 'config');
 
-        $this->guardAgainstInvalidStatusModel();
+        //$this->guardAgainstInvalidStatusModel();
     }
 
     public function register()
